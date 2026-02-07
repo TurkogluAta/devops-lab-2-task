@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Delete folders if they exist (cleanup from previous runs)
+rm -rf fol_1 fol_2
+
 # Create folders
 mkdir fol_1 fol_2
 
